@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.358ff34c.chunk.css",
+    "main.js": "/static/js/main.ff39a0a9.chunk.js",
+    "main.js.map": "/static/js/main.ff39a0a9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3717989d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3717989d.js.map",
+    "static/js/2.bfb31e88.chunk.js": "/static/js/2.bfb31e88.chunk.js",
+    "static/js/2.bfb31e88.chunk.js.map": "/static/js/2.bfb31e88.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.890c6fc85d26ed7328b49c662b3449ac.js": "/precache-manifest.890c6fc85d26ed7328b49c662b3449ac.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.358ff34c.chunk.css.map": "/static/css/main.358ff34c.chunk.css.map",
+    "static/js/2.bfb31e88.chunk.js.LICENSE.txt": "/static/js/2.bfb31e88.chunk.js.LICENSE.txt",
+    "static/media/systematic_thinking.png": "/static/media/systematic_thinking.e422bea1.png",
+    "static/media/tic-tac-attack-screenshot.PNG": "/static/media/tic-tac-attack-screenshot.40d5f9f4.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3717989d.js",
+    "static/js/2.bfb31e88.chunk.js",
+    "static/css/main.358ff34c.chunk.css",
+    "static/js/main.ff39a0a9.chunk.js"
+  ]
+}
