@@ -1,26 +1,24 @@
 import React from 'react';
-import TicTacAttackIcon from '../icons/tic-tac-attack-screenshot.PNG';
+import projects from './ProjectData';
+import Header from './Header';
 
 function Project() {
     return (
         <div className='component-wrapper'>
-            <h2>Projects</h2>
-            <div className='container-fluid' id="project-div">
-                <div className='card mb-3'>
-                    <div className="row no-gutters">
-                        <div className='col-md-4'>
-                            <img className='card-img' src={TicTacAttackIcon} />
+            <Header headerText='Current/Recent Projects'/>
+            {projects.map((val) => {
+                return (
+                    <div className='projectCard'>
+                        <div className='projectCardImgDiv'>
+                            <a href={val.url}><img className='projectCardImg' src={val.img}/></a>
                         </div>
-                        <div className='col-md-8'>
-                            <div className='card-body'>
-                                <h5 className='card-title'>Tic-Tac-Attack!</h5>
-                                <p className='card-text'>Classic Tic-Tac-Toe, challenge your friends to see who survives this tic-tac-attack!</p>
-                            </div>
+                        <div className='projectCardInfoDiv'>
+                            <h4 className='projectCardNameText'>{val.name}</h4>
+                            <p className='projectCardDescriptionText'>{val.description}</p>
                         </div>
                     </div>
-
-                </div>
-            </div>
+                )
+            })}
         </div>
     )
 }
