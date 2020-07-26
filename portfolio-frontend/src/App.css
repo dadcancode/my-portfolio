@@ -35,13 +35,15 @@
 }
 
 #about-name-div {
-  background-color: cadetblue;
+  background: linear-gradient(to right, #000046, #1cb5e0);
   padding-top: 6rem;
   padding-left: 1rem;
+  font-family:  'Staatliches', cursive;
 }
 
 #about-name-text {
-  font-size: 46pt;
+  font-size: 60pt;
+  color: whitesmoke;
 }
 
 .reg-text {
@@ -66,6 +68,7 @@
 .nav-link {
   color: whitesmoke;
   font-size: 35pt;
+  font-family:  'Staatliches', cursive;
 }
 
 .strength-card-title {
