@@ -4,14 +4,12 @@ import ProblemSolvingIcon from '../icons/problem_solving.png';
 import SystematicThinkingIcon from '../icons/systematic_thinking.png';
 import CommunicationIcon from '../icons/communication.png';
 import TimeManagementIcon from '../icons/time_management.png';
+import Header from './Header';
 
 function About() {
     return (
         <div className='component-wrapper'>
-            <div id='about-name-div'>
-                <h1 id='about-name-text'>Zach Goodrich</h1>
-            </div>
-            
+            <Header headerText='Zach Goodrich'/>            
             <div id='about-general-div'>
                 I am problem solver that specializes in full-stack developement. I help small businesses and corporations bring their ideas to life.
             </div>
