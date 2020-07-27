@@ -26,12 +26,12 @@
   display: flex;
   justify-content: center;
   background: linear-gradient(to right, #000046, #1cb5e0);
-  /* position: fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
-  right: 0; */
+  right: 0; 
   padding: .5rem 0;
-  justify-self: flex-end;
+  /* justify-self: flex-end; */
 }
 
 .header-div {
