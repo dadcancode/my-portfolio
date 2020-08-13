@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       {/* <ViewWindow view={view}/> */}
-      {routeResult}
       <Navigation/>
+      {routeResult}
     </div>
   );
 }
