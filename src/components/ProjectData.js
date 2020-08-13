@@ -1,4 +1,4 @@
-import TicTacAttackImg from '../icons/tic-tac-attack-screenshot.png';
+import TicTacAttackImg from '../icons/tic-tac-attack-screenshot.PNG';
 
 
 const projects = [
