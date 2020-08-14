@@ -28,16 +28,17 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 30pt;
+  font-size: 3vw;
 }
 
 
 
 .header-div {
-  background: linear-gradient(to right, #000046, #1cb5e0);
+  /* background: linear-gradient(to right, #000046, #1cb5e0); */
   padding-top: 6rem;
   padding-left: 1rem;
   /* font-family:  'Staatliches', cursive; */
+  background-color: rgb(84, 192, 236);
 }
 
 .header-text {
@@ -66,7 +67,7 @@ nav {
 
 .nav-link {
   color: whitesmoke;
-  font-size: 35pt;
+  font-size: 3vw;
   font-family:  'Staatliches', cursive;
 }
 
