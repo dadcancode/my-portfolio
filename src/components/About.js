@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../App.css';
+// import '../App.css';
 import ProblemSolvingIcon from '../icons/problem_solving.png';
 import SystematicThinkingIcon from '../icons/systematic_thinking.png';
 import CommunicationIcon from '../icons/communication.png';
@@ -8,8 +8,8 @@ import Header from './Header';
 
 function About() {
     return (
-        <div className='component-wrapper'>
-            <Header headerText='Zach Goodrich'/>            
+        <div className='container-fluid p-0 component-wrapper'>
+            <Header/>            
             <div id='about-general-div'>
                 I am problem solver that specializes in full-stack developement. I help small businesses and corporations bring their ideas to life.
             </div>
