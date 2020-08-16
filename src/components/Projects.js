@@ -4,21 +4,24 @@ import Header from './Header';
 
 function Project() {
     return (
-        <div className='component-wrapper'>
-            <Header headerText='Current/Recent Projects'/>
-            {projects.map((val) => {
-                return (
-                    <div className='projectCard'>
-                        <div className='projectCardImgDiv'>
-                            <a href={val.url}><img className='projectCardImg' src={val.img}/></a>
+        <div className='container-fluid p-0 component-wrapper'>
+            <Header/>
+            <div className="row justify-content-md-around mx-auto mt-5">
+                {projects.map((val) => {
+                    return (
+                        <div className='col-md-6 d-flex justify-content-center pb-3'>
+                            <div className='card project-card'>
+                                <img className='img-card-top project-card-img' src={val.img}/>
+                                <div className='card-body pb-2'>
+                                    <h4 className='card-title'>{val.name}</h4>
+                                    <p className='card-text'>{val.description}</p>
+                                    <a className='card-link' href={val.url}>Check it out!</a>
+                                </div>
+                            </div>
                         </div>
-                        <div className='projectCardInfoDiv'>
-                            <h4 className='projectCardNameText'>{val.name}</h4>
-                            <p className='projectCardDescriptionText'>{val.description}</p>
-                        </div>
-                    </div>
-                )
-            })}
+                    )
+                })}
+            </div>
         </div>
     )
 }
