@@ -13,7 +13,7 @@ function App() {
   const routeResult = useRoutes(routes);
 
   return (
-    <div className="App">
+    <div className="App bg-light">
       {/* <ViewWindow view={view}/> */}
       <Navigation/>
       {routeResult}
