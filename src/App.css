@@ -1,5 +1,5 @@
 * {
-  /* border: 2px solid greenyellow; */
+  /* border: .5px solid greenyellow; */
 }
 
 .App {
@@ -27,12 +27,7 @@
 }
 
 .project-card {
-  /* min-height: 365px;
-  max-height: 425px;
-  min-width: 375px;
-  max-width: 435px; */
-  max-height: 380px;
-  min-height: 375px;
+  min-height: 515px;
   max-width: 500px;
 }
 

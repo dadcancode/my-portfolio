@@ -12,10 +12,10 @@ function Project() {
                         <div className='col-md-6 d-flex justify-content-center pb-3'>
                             <div className='card project-card'>
                                 <img className='img-card-top project-card-img' src={val.img}/>
-                                <div className='card-body pb-2'>
+                                <div className='card-body d-flex flex-column pb-2'>
                                     <h4 className='card-title'>{val.name}</h4>
                                     <p className='card-text'>{val.description}</p>
-                                    <a className='card-link' href={val.url}>Check it out!</a>
+                                    <a className='card-link mt-auto ml-auto' href={val.url}>Check it out!</a>
                                 </div>
                             </div>
                         </div>
