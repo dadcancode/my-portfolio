@@ -40,7 +40,7 @@ function About() {
                         <img className='img-card-top p-5 mx-auto strength-card-img' src={CommunicationIcon}/>
                         <div className='card-body bg-primary text-light pb-2'>
                             <h5 className='card-title strength-card-title'>Communication</h5>
-                            <p className='card-text strength-card-text'>I can break down a topic concisely which speeds up commuication and efficiency.</p>
+                            <p className='card-text strength-card-text'>I can break down a topic concisely which speeds up communication and efficiency.</p>
                         </div>
                     </div>
                 </div>
