@@ -1,3 +1,7 @@
+* {
+  /* border: 2px solid greenyellow; */
+}
+
 .App {
   height: 100vh;
   overflow: auto;
@@ -9,6 +13,32 @@
   flex: 1;
 }
 
-.header-row {
-  height: 15%;
+.headshot {
+  max-height: 300px;
+  border-width: 5px !important;
+}
+
+.strength-card {
+  max-height: 365px;
+  min-height: 365px;
+  max-width: 375px;
+  min-width: 325px;
+  /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+}
+
+.strength-card-img {
+  min-height: 55%;
+  max-height: 55%;
+  min-width: 85px;
+  
+}
+
+#about-strengths-list-div {
+  width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  #about-strengths-list-div {
+    min-width: 675px;
+  }
 }

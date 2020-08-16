@@ -10,48 +10,46 @@ function About() {
     return (
         <div className='container-fluid p-0 component-wrapper'>
             <Header/>            
-            <div id='about-general-div'>
+            <div className='jumbotron h4'>
                 I am problem solver that specializes in full-stack developement. I help small businesses and corporations bring their ideas to life.
             </div>
             {/* <div>
                 <p className='reg-text' id='about-strengths-general-text'>Developing ideas into functional products can be challenging. These are the strengths I bring to the project to tackle those challenges:</p>
             </div> */}
-            <div className="container-fluid" id='about-strengths-list-div'>
-                <div className='row justify-content-center' >
-                    <div className='col-sm-12 d-flex align-items-stretch'>
-                        <div className='card strength-card' >
-                            <img className='img-card-top' src={ProblemSolvingIcon}/>
-                            <div className='card-body'>
-                                <h5 className='card-title strength-card-title'>Problem Solving</h5>
-                                <p className='card-text strength-card-text'>I am able to analyze loose concepts and goals and break them down into manageable pieces</p>
-                            </div>
+            <div className="row justify-content-md-around mx-auto" id='about-strengths-list-div'>
+                <div className='col-md-6 d-flex justify-content-center pb-3'>
+                    <div className='card strength-card' >
+                        <img className='img-card-top p-5 mx-auto strength-card-img' src={ProblemSolvingIcon}/>
+                        <div className='card-body bg-primary text-light pb-2'>
+                            <h5 className='card-title strength-card-title'>Problem Solving</h5>
+                            <p className='card-text strength-card-text'>I am able to analyze loose concepts and goals and break them down into manageable pieces</p>
                         </div>
                     </div>
-                    <div className='col-sm-12 d-flex align-items-stretch'>
-                        <div className='card strength-card'>
-                            <img className='img-card-top' src={SystematicThinkingIcon}/>
-                            <div className='card-body'>
-                                <h5 className='card-title strength-card-title'>Systemactic Thinking</h5>
-                                <p className='card-text strength-card-text'>I am able to structure complicated systems with multiple components abstractly.</p>
-                            </div>
+                </div>
+                <div className='col-md-6 d-flex justify-content-center pb-3'>
+                    <div className='card strength-card'>
+                        <img className='img-card-top p-5 mx-auto strength-card-img' src={SystematicThinkingIcon}/>
+                        <div className='card-body bg-primary text-light pb-2'>
+                            <h5 className='card-title strength-card-title'>Systemactic Thinking</h5>
+                            <p className='card-text strength-card-text'>I am able to structure complicated systems with multiple components abstractly.</p>
                         </div>
                     </div>
-                    <div className='col-sm-12 d-flex align-items-stretch'>
-                        <div className='card strength-card'>
-                            <img className='img-card-top' src={CommunicationIcon}/>
-                            <div className='card-body'>
-                                <h5 className='card-title strength-card-title'>Communication</h5>
-                                <p className='card-text strength-card-text'>I can break down a topic concisely which speeds up commuication and efficiency.</p>
-                            </div>
+                </div>
+                <div className='col-md-6 d-flex justify-content-center pb-3'>
+                    <div className='card strength-card'>
+                        <img className='img-card-top p-5 mx-auto strength-card-img' src={CommunicationIcon}/>
+                        <div className='card-body bg-primary text-light pb-2'>
+                            <h5 className='card-title strength-card-title'>Communication</h5>
+                            <p className='card-text strength-card-text'>I can break down a topic concisely which speeds up commuication and efficiency.</p>
                         </div>
                     </div>
-                    <div className='col-sm-12 d-flex align-items-stretch'>
-                        <div className='card strength-card'>
-                            <img className='img-card-top' src={TimeManagementIcon}/>
-                            <div className='card-body'>
-                                <h5 className='card-title strength-card-title'>Time-Management</h5>
-                                <p className='card-text strength-card-text'>I am able to work autonomously, meet deadlines, and plan out projects with the goal of delivering a complete product that meets clients requirements.</p>
-                            </div>
+                </div>
+                <div className='col-md-6 d-flex justify-content-center pb-3'>
+                    <div className='card strength-card'>
+                        <img className='img-card-top p-5 mx-auto strength-card-img' src={TimeManagementIcon}/>
+                        <div className='card-body bg-primary text-light pb-2'>
+                            <h5 className='card-title strength-card-title'>Time-Management</h5>
+                            <p className='card-text strength-card-text'>I am able to work autonomously, meet deadlines, and plan out projects with the goal of delivering a complete product that meets clients requirements.</p>
                         </div>
                     </div>
                 </div>

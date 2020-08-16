@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Navigation(props) {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-dark text-light justify-content-between">
+        <nav className="navbar navbar-expand-md sticky-top navbar-light bg-dark text-light justify-content-between">
             <a className="navbar-brand text-light" href="#">ZACHERY GOODRICH</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

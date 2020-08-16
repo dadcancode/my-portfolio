@@ -3,12 +3,12 @@ import Headshot from '../icons/headshot.jpg';
 
 const Header = (props) => {
     return (
-        <div className='row bg-primary text-light header-row'>
-            <div className='col-md-4 h-100 d-flex justify-content-center align-items-center'>
-                <img className='img-fluid rounded-circle h-75' src={Headshot}/>
+        <div className='row mb-3 bg-primary text-light'>
+            <div className='col-md-4 d-flex justify-content-center align-items-center h-auto p-4'>
+                <img className='img-fluid border border-warning rounded-circle headshot' src={Headshot}/>
             </div>
-            <div className='col-md-8 d-flex flex-column  justify-content-center'>
-                <h1 className='display-3'>Zach Goodrich</h1>
+            <div className='col-md-8 d-flex flex-column justify-content-center h-auto pl-5'>
+                <h1>Zach Goodrich</h1>
                 <p className='lead'>Full-Stack Software Developer, Problem-Solver, Video Game Enthusiast</p>
             </div>
         </div>
