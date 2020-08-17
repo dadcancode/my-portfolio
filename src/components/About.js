@@ -19,17 +19,17 @@ function About() {
             <div className="row justify-content-md-around mx-auto" id='about-strengths-list-div'>
                 <div className='col-md-6 d-flex justify-content-center pb-3'>
                     <div className='card strength-card' >
-                        <img className='img-card-top p-5 mx-auto strength-card-img' src={ProblemSolvingIcon}/>
-                        <div className='card-body bg-primary text-light pb-2'>
+                        <img className='img-card-top mx-auto strength-card-img p-3' src={ProblemSolvingIcon}/>
+                        <div className='card-body d-flex flex-column justify-content-center bg-primary text-light pb-2'>
                             <h5 className='card-title strength-card-title'>Problem Solving</h5>
-                            <p className='card-text strength-card-text'>I am able to analyze loose concepts and goals and break them down into manageable pieces</p>
+                            <p className='card-text strength-card-text'>I am able to analyze loose concepts and goals and break them down into manageable pieces.</p>
                         </div>
                     </div>
                 </div>
                 <div className='col-md-6 d-flex justify-content-center pb-3'>
                     <div className='card strength-card'>
-                        <img className='img-card-top p-5 mx-auto strength-card-img' src={SystematicThinkingIcon}/>
-                        <div className='card-body bg-primary text-light pb-2'>
+                        <img className='img-card-top mx-auto strength-card-img p-3' src={SystematicThinkingIcon}/>
+                        <div className='card-body d-flex flex-column justify-content-center bg-primary text-light pb-2'>
                             <h5 className='card-title strength-card-title'>Systemactic Thinking</h5>
                             <p className='card-text strength-card-text'>I am able to structure complicated systems with multiple components abstractly.</p>
                         </div>
@@ -37,8 +37,8 @@ function About() {
                 </div>
                 <div className='col-md-6 d-flex justify-content-center pb-3'>
                     <div className='card strength-card'>
-                        <img className='img-card-top p-5 mx-auto strength-card-img' src={CommunicationIcon}/>
-                        <div className='card-body bg-primary text-light pb-2'>
+                        <img className='img-card-top mx-auto strength-card-img p-3' src={CommunicationIcon}/>
+                        <div className='card-body d-flex flex-column justify-content-center bg-primary text-light pb-2'>
                             <h5 className='card-title strength-card-title'>Communication</h5>
                             <p className='card-text strength-card-text'>I can break down a topic concisely which speeds up communication and efficiency.</p>
                         </div>
@@ -46,10 +46,10 @@ function About() {
                 </div>
                 <div className='col-md-6 d-flex justify-content-center pb-3'>
                     <div className='card strength-card'>
-                        <img className='img-card-top p-5 mx-auto strength-card-img' src={TimeManagementIcon}/>
-                        <div className='card-body bg-primary text-light pb-2'>
+                        <img className='img-card-top mx-auto strength-card-img p-3' src={TimeManagementIcon}/>
+                        <div className='card-body d-flex flex-column justify-content-center bg-primary text-light pb-2'>
                             <h5 className='card-title strength-card-title'>Time-Management</h5>
-                            <p className='card-text strength-card-text'>I am able to work autonomously, meet deadlines, and plan out projects with the goal of delivering a complete product that meets clients requirements.</p>
+                            <p className='card-text strength-card-text'>I am able to work autonomously, meet deadlines, and plan out projects with the goal of delivering a complete product that meets my clients' requirements.</p>
                         </div>
                     </div>
                 </div>
