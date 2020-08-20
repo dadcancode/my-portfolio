@@ -30,7 +30,7 @@ function About() {
                     <div className='card strength-card'>
                         <img className='img-card-top mx-auto strength-card-img p-3' src={SystematicThinkingIcon}/>
                         <div className='card-body d-flex flex-column justify-content-center bg-primary text-light pb-2'>
-                            <h5 className='card-title strength-card-title'>Systemactic Thinking</h5>
+                            <h5 className='card-title strength-card-title'>Systematic Thinking</h5>
                             <p className='card-text strength-card-text'>I am able to structure complicated systems with multiple components abstractly.</p>
                         </div>
                     </div>
