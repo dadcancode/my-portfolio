@@ -9,7 +9,7 @@ const Header = (props) => {
             </div>
             <div className='col-md-8 d-flex flex-column justify-content-center h-auto pl-5'>
                 <h1>Zach Goodrich</h1>
-                <p className='lead'>Full-Stack Software Developer, Problem-Solver, Video Game Enthusiast</p>
+                <p className='lead'>Full-Stack Software Developer, Problem-Solver, Pizza Enthusiast</p>
             </div>
         </div>
     )
