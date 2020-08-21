@@ -16,7 +16,7 @@ function Navigation(props) {
                         <a className="nav-link text-light" href="/projects">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light" href="#">Connect</a>
+                        <a className="nav-link text-light" href="/connect">Connect</a>
                     </li>
                 </ul>
             </div>
