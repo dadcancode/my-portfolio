@@ -32,7 +32,7 @@ function Connect () {
         <div className='container-fluid p-0 component-wrapper'>
             <Header />
             <div className='row justify-content-center mt-5'>
-                <div className='col-sm-10 col-lg-6 bg-primary text-light rounded'>
+                <div className='col-xs-10 col-lg-6 bg-primary text-light rounded'>
                     <h4 className='text-center border-bottom border-warning my-3 pb-3 border-width-3'>Let's build something!</h4>
                     <form onSubmit={(e) => {
                         sendEmail(e);
